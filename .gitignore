@@ -10,7 +10,7 @@ Thumbs.db
 **/build/
 
 # Gradle
-.gradle/
+**/.gradle/
 **/local.properties
 .gradle/
 build/
