@@ -1,0 +1,60 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
+
+# Carpetas generadas
+/build/
+**/build/
+
+# Gradle
+.gradle/
+**/local.properties
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Archivos de cache
+/.idea/
+*.iml
+*.ipr
+*.iws
+.idea/
+*.iml
+
+# Archivos de Android Studio
+.cxx/
+captures/
+.externalNativeBuild/
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Archivos de backup
+*~ 
+*.swp
+*.swo
+*.tmp
+
+# Cache de lint
+lint/intermediates/
+lint/generated/
+
+# Archivos del sistema
+*.keystore
+*.jks
+
+# Otros
+*.orig
+
+# Configuraciones locales
+local.properties
+
+# NDK
+obj/
+
+# Configuraciones de firma
+signing.properties
