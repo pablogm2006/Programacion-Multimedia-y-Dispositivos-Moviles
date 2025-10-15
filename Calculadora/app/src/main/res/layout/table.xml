@@ -3,8 +3,8 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center">
-
     <TextView
+        android:id="@+id/texto"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:background="#909090"
@@ -15,6 +15,7 @@
     </TextView>
     <TableRow>
         <Button
+            android:id="@+id/numero1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
@@ -22,6 +23,7 @@
             android:text="1">
         </Button>
         <Button
+            android:id="@+id/numero2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
@@ -29,6 +31,7 @@
             android:text="2">
         </Button>
         <Button
+            android:id="@+id/numero3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
@@ -36,6 +39,7 @@
             android:text="3">
         </Button>
         <Button
+            android:id="@+id/dividir"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
@@ -45,6 +49,7 @@
     </TableRow>
     <TableRow>
         <Button
+            android:id="@+id/numero4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
@@ -52,6 +57,7 @@
             android:text="4">
         </Button>
         <Button
+            android:id="@+id/numero5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
@@ -59,6 +65,7 @@
             android:text="5">
         </Button>
         <Button
+            android:id="@+id/numero6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
@@ -66,6 +73,7 @@
             android:text="6">
         </Button>
         <Button
+            android:id="@+id/multiplicar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
@@ -75,6 +83,7 @@
     </TableRow>
     <TableRow>
         <Button
+            android:id="@+id/numero7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
@@ -82,6 +91,7 @@
             android:text="7">
         </Button>
         <Button
+            android:id="@+id/numero8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
@@ -89,6 +99,7 @@
             android:text="8">
         </Button>
         <Button
+            android:id="@+id/numero9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
@@ -96,6 +107,7 @@
             android:text="9">
         </Button>
         <Button
+            android:id="@+id/restar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
@@ -105,20 +117,24 @@
     </TableRow>
     <TableRow>
         <Button
+            android:id="@+id/numero0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:backgroundTint="#B919D1"
             android:text="0">
         </Button>
+
         <Button
+            android:id="@+id/punto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:backgroundTint="#B919D1"
-            android:text=".">
-        </Button>
+            android:text="."></Button>
+
         <Button
+            android:id="@+id/igual"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
@@ -126,11 +142,33 @@
             android:text="=">
         </Button>
         <Button
+            android:id="@+id/sumar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:backgroundTint="#B919D1"
             android:text="+">
+        </Button>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:backgroundTint="#B919D1"
+            android:layout_span="2"
+            android:text="C">
+        </Button>
+        <Button
+            android:id="@+id/ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:backgroundTint="#B919D1"
+            android:layout_span="2"
+
+            android:text="AC">
         </Button>
     </TableRow>
 
