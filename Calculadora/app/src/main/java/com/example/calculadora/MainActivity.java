@@ -125,7 +125,5 @@ public class MainActivity extends AppCompatActivity {
                 texto.setText("0");
             }
         });
-
-        // Nota: El botón "=" aún no tiene funcionalidad para hacer el cálculo.
     }
 }
