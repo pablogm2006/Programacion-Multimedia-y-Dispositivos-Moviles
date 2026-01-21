@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Referencias a los elementos
         etTotal = findViewById(R.id.etTotal);
         cbPropina = findViewById(R.id.cbPropina);
         seekBarPropina = findViewById(R.id.seekBarPropina);

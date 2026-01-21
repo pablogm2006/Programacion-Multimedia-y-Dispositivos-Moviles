@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     /**
-     * Este método se llama cuando se inicia la aplicación.
+     * Este métod se llama cuando se inicia la aplicación.
      * Aquí se conectan todos los botones y se define qué hacen cuando se tocan.
      */
     @Override
@@ -47,9 +47,9 @@ public class MainActivity extends AppCompatActivity {
         Button restar = findViewById(R.id.restar);
 
         // Botones extra
-        Button igual = findViewById(R.id.igual); // (todavía no hace nada)
+        Button igual = findViewById(R.id.igual);
         Button punto = findViewById(R.id.punto);
-        Button ac = findViewById(R.id.ac); // borra todo
+        Button ac = findViewById(R.id.ac); // borra todos los carácteres
         Button c = findViewById(R.id.c);   // borra un solo carácter
 
         // Muestra "0" al inicio
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        // Conectamos el listener a todos los botones de número
+        // listener a todos los botones de número
         num0.setOnClickListener(numberListener);
         num1.setOnClickListener(numberListener);
         num2.setOnClickListener(numberListener);
@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Botón AC: borra todo
+        // Botón AC
         ac.setOnClickListener(v -> texto.setText("0"));
 
         // Botón C: borra el último carácter

@@ -33,5 +33,43 @@
         android:completionThreshold="2"
         android:inputType="textAutoComplete"
         ></AutoCompleteTextView>
-
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/miSpinner"></Spinner>
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opcion1"></CheckBox>
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/radiobutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opcion1"></RadioButton>
+        <RadioButton
+            android:id="@+id/radiobutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opcion2"></RadioButton>
+        <RadioButton
+            android:id="@+id/radiobutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opcion3"></RadioButton>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola"></TextView>
+    <Button
+        android:id="@+id/boton1"
+        android:text="boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
 </LinearLayout>
